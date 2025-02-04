@@ -1,9 +1,11 @@
 # CountryName
 Country description of any Continent
 
-Pre-requisites:
-# Install python. Reference:  https://docs.python-guide.org/starting/installation/
-# Install MySQL.  Reference: https://dev.mysql.com/doc/refman/5.5/en/
+# Pre-requisites:
+# Install python. 
+Reference:  https://docs.python-guide.org/starting/installation/
+# Install MySQL.  
+Reference: https://dev.mysql.com/doc/refman/5.5/en/
 # Setup virtual environment:
    Install virtual environment
 sudo pip install virtualenv
@@ -22,8 +24,7 @@ git clone "https://github.com/Seemon82/CountryName.git"
 pip install -r requirements.txt
 
 # Load sample data into MySQL
- #open mysql bash
-mysql -u <mysql-user> -p
+ #open mysql bash    mysql -u <mysql-user> -p
  #Give the absolute path of the file
 mysql> source ~/CountryName/world.sql
 mysql> exit;
